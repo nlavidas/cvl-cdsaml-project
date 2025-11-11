@@ -81,6 +81,20 @@
     </style>
 </head>
 <body>
+    <!-- Navigation -->
+    <nav style="background: var(--primary); color: white; padding: 1rem 0; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center;">
+            <div style="font-size: 1.3rem; font-weight: 700; color: white;">CVL-CDSAML Project</div>
+            <div style="display: flex; gap: 2rem;">
+                <a href="#about" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 5px; transition: background 0.3s;">About</a>
+                <a href="#objectives" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 5px; transition: background 0.3s;">Objectives</a>
+                <a href="#team" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 5px; transition: background 0.3s;">Team</a>
+                <a href="#outputs" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 5px; transition: background 0.3s;">Outputs</a>
+                <a href="#contact" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; border-radius: 5px; transition: background 0.3s;">Contact</a>
+            </div>
+        </div>
+    </nav>
+
     <!-- Hero -->
     <section class="hero">
         <div class="badge">HFRI/ELIDEK Funded Research</div>
@@ -102,7 +116,7 @@
     <!-- Main Content -->
     <div class="container">
         <!-- About -->
-        <section class="section">
+        <section class="section" id="about">
             <h2 class="section-title">About the Project</h2>
             <p style="font-size: 1.1rem; line-height: 1.8;">
                 <strong>CVL-CDSAML</strong> is a comprehensive research initiative funded by the 
@@ -213,7 +227,7 @@
         </section>
 
         <!-- Outputs & Deliverables -->
-        <section class="section">
+        <section class="section" id="outputs">
             <h2 class="section-title">Project Outputs</h2>
             <div style="background: var(--bg-light); padding: 2rem; border-radius: 16px;">
                 <ul style="list-style: none; padding: 0;">
@@ -242,7 +256,7 @@
         </section>
 
         <!-- Related Activities -->
-        <section class="section">
+        <section class="section" id="objectives">
             <h2 class="section-title">Educational & Research Activities</h2>
             <div class="feature-grid">
                 <div class="feature-card">
@@ -288,7 +302,7 @@
         </section>
 
         <!-- Contact -->
-        <section class="section">
+        <section class="section" id="contact">
             <h2 class="section-title">Contact</h2>
             <div style="background: var(--bg-light); padding: 2rem; border-radius: 16px;">
                 <p><strong>Principal Investigator:</strong> Prof. Nikolaos Lavidas</p>

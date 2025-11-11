@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVL-CDSAML Research Project | HFRI Funded</title>
+    <meta name="description" content="Corpus-based Valency Lexicon for Contrastive and Diachronic Study of Ancient & Medieval Languages. HFRI/ELIDEK funded research project at University of Athens.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #2563EB;
+            --primary-dark: #1E40AF;
+            --accent: #10B981;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #EFF6FF;
+        }
+        body { font-family: 'Inter', sans-serif; color: var(--text-dark); line-height: 1.6; }
+        
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white; padding: 8rem 2rem 6rem; text-align: center;
+        }
+        .hero .badge {
+            display: inline-block; background: rgba(255,255,255,0.2);
+            padding: 0.5rem 1.5rem; border-radius: 50px; font-weight: 600; margin-bottom: 1.5rem;
+        }
+        .hero h1 { font-size: 3rem; font-weight: 900; margin-bottom: 1rem; letter-spacing: -1px; }
+        .hero .subtitle { font-size: 1.4rem; opacity: 0.95; margin-bottom: 2rem; }
+        .hero .grant-info { font-size: 1.1rem; font-weight: 600; }
+        
+        /* Container */
+        .container { max-width: 1200px; margin: 0 auto; padding: 4rem 2rem; }
+        .section { margin-bottom: 4rem; }
+        .section-title { font-size: 2rem; font-weight: 800; color: var(--primary); margin-bottom: 1.5rem; }
+        
+        /* Feature Cards */
+        .feature-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem; margin: 3rem 0;
+        }
+        .feature-card {
+            background: var(--bg-light); border-radius: 16px; padding: 2rem;
+            border-top: 4px solid var(--accent);
+        }
+        .feature-card h3 { color: var(--primary); margin-bottom: 1rem; font-size: 1.3rem; }
+        
+        /* Stats */
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem; margin: 3rem 0;
+        }
+        .stat-card {
+            background: white; border-radius: 12px; padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center;
+        }
+        .stat-number { font-size: 3rem; font-weight: 900; color: var(--primary); }
+        .stat-label { color: var(--text-light); font-weight: 600; margin-top: 0.5rem; }
+        
+        /* Team */
+        .team-member {
+            background: white; border-radius: 12px; padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 1.5rem;
+        }
+        .team-member h4 { color: var(--primary); margin-bottom: 0.5rem; }
+        .team-role { color: var(--accent); font-weight: 600; margin-bottom: 1rem; }
+        
+        /* Footer */
+        footer {
+            background: var(--text-dark); color: white;
+            padding: 3rem 2rem; text-align: center;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="badge">🏛️ HFRI/ELIDEK Funded Research</div>
+        <h1>CVL-CDSAML</h1>
+        <div class="subtitle">Corpus-based Valency Lexicon for Contrastive<br>and Diachronic Study of Ancient & Medieval Languages</div>
+        <div class="grant-info">Grant No. 20577 | 3rd Call for HFRI Research Projects</div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About -->
+        <section class="section">
+            <h2 class="section-title">About the Project</h2>
+            <p style="font-size: 1.1rem; line-height: 1.8;">
+                <strong>CVL-CDSAML</strong> is a comprehensive research initiative funded by the 
+                <strong>Hellenic Foundation for Research and Innovation (HFRI/ELIDEK)</strong> that 
+                develops an open-access corpus-based valency lexicon for ancient and medieval languages. 
+                The project combines traditional philological methods with cutting-edge computational 
+                linguistics and AI to analyze verb argument structures across time and languages.
+            </p>
+        </section>
+
+        <!-- Project Stats -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">10M+</div>
+                <div class="stat-label">Corpus Tokens</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">3000+</div>
+                <div class="stat-label">Years of Greek</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">6</div>
+                <div class="stat-label">Languages</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Open Access</div>
+            </div>
+        </div>
+
+        <!-- Research Objectives -->
+        <h2 class="section-title">Research Objectives</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>Valency Patterns</h3>
+                <p>Systematic extraction and analysis of verb valency patterns from diachronic corpora</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Cross-linguistic Analysis</h3>
+                <p>Comparative study of argument structure across Indo-European languages</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Diachronic Change</h3>
+                <p>Tracking syntactic evolution from antiquity to modern times</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>AI-Powered Tools</h3>
+                <p>Development of computational methods for automated linguistic analysis</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Open Science</h3>
+                <p>All data, tools, and findings freely available under CC-BY license</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Interactive Platform</h3>
+                <p>Web-based interface for researchers worldwide to query and analyze data</p>
+            </div>
+        </div>
+
+        <!-- Research Team -->
+        <section class="section">
+            <h2 class="section-title">Research Team</h2>
+            
+            <div class="team-member">
+                <h4>Prof. Nikolaos Lavidas</h4>
+                <div class="team-role">Principal Investigator</div>
+                <p>National and Kapodistrian University of Athens | Department of English Language and Literature</p>
+                <p style="margin-top: 0.5rem; color: var(--text-light);">
+                    Specializing in historical syntax, language contact, and corpus methodology
+                </p>
+            </div>
+            
+            <div class="team-member">
+                <h4>Research Associates</h4>
+                <div class="team-role">Postdoctoral Researchers & PhD Candidates</div>
+                <p>Specialists in computational linguistics, ancient languages, and diachronic analysis</p>
+            </div>
+            
+            <div class="team-member">
+                <h4>International Collaborators</h4>
+                <div class="team-role">Partner Institutions</div>
+                <p>Arizona State University | University of Osnabrück | University of Cambridge | CIVIS Network</p>
+            </div>
+        </section>
+
+        <!-- Outputs & Deliverables -->
+        <section class="section">
+            <h2 class="section-title">Project Outputs</h2>
+            <div style="background: var(--bg-light); padding: 2rem; border-radius: 16px;">
+                <ul style="list-style: none; padding: 0;">
+                    <li style="padding: 1rem 0; border-bottom: 1px solid #ddd;">
+                        <strong>📚 Comprehensive Valency Lexicon</strong><br>
+                        Multi-language database of verb argument structures
+                    </li>
+                    <li style="padding: 1rem 0; border-bottom: 1px solid #ddd;">
+                        <strong>💻 Interactive Web Platform</strong><br>
+                        Query interface for corpus exploration and analysis
+                    </li>
+                    <li style="padding: 1rem 0; border-bottom: 1px solid #ddd;">
+                        <strong>📊 Annotated Corpora</strong><br>
+                        Morphologically and syntactically tagged texts
+                    </li>
+                    <li style="padding: 1rem 0; border-bottom: 1px solid #ddd;">
+                        <strong>🔧 Open-Source Tools</strong><br>
+                        Python libraries and analysis scripts
+                    </li>
+                    <li style="padding: 1rem 0;">
+                        <strong>📄 Academic Publications</strong><br>
+                        Research papers and conference presentations
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Related Activities -->
+        <section class="section">
+            <h2 class="section-title">Educational & Research Activities</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>🏛️ Delphi Workshop 2025</h3>
+                    <p>International workshop on diachronic linguistics at the European Cultural Centre of Delphi</p>
+                    <a href="https://nlavidas.github.io/delphi-workshop-2025/" style="color: var(--primary); font-weight: 600; display: inline-block; margin-top: 1rem;">
+                        Learn more →
+                    </a>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>🏝️ Naxos Summer School</h3>
+                    <p>Annual intensive program on ancient and medieval languages (July 2026)</p>
+                    <a href="https://nlavidas.github.io/naxos-summer-school-2026/" style="color: var(--primary); font-weight: 600; display: inline-block; margin-top: 1rem;">
+                        Learn more →
+                    </a>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>🇪🇺 CIVIS Course</h3>
+                    <p>Blended learning program: Diachronic Linguistics in the 21st Century</p>
+                    <a href="https://nlavidas.github.io/civis-dia-ling-2026/" style="color: var(--primary); font-weight: 600; display: inline-block; margin-top: 1rem;">
+                        Learn more →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Links -->
+        <section class="section">
+            <h2 class="section-title">Resources</h2>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <a href="https://athdgc.github.io/" target="_blank" style="background: var(--primary); color: white; padding: 1rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 600;">
+                    🏛️ AthDGC Research Network
+                </a>
+                <a href="https://www.elidek.gr/en/homepage/" target="_blank" style="background: var(--accent); color: white; padding: 1rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 600;">
+                    💎 HFRI/ELIDEK
+                </a>
+                <a href="https://en.uoa.gr/" target="_blank" style="background: var(--text-dark); color: white; padding: 1rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 600;">
+                    🎓 University of Athens
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section">
+            <h2 class="section-title">Contact</h2>
+            <div style="background: var(--bg-light); padding: 2rem; border-radius: 16px;">
+                <p><strong>Principal Investigator:</strong> Prof. Nikolaos Lavidas</p>
+                <p><strong>Institution:</strong> National and Kapodistrian University of Athens</p>
+                <p><strong>Department:</strong> English Language and Literature</p>
+                <p><strong>Email:</strong> <a href="mailto:nlavidas@enl.uoa.gr" style="color: var(--primary);">nlavidas@enl.uoa.gr</a></p>
+                <p style="margin-top: 1.5rem;">
+                    <strong>Grant Information:</strong><br>
+                    HFRI Project No. 20577<br>
+                    3rd Call for HFRI Research Projects to Support Faculty Members and Researchers
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 CVL-CDSAML Project | National and Kapodistrian University of Athens</p>
+        <p style="margin-top: 1rem;">
+            Funded by the <a href="https://www.elidek.gr/en/homepage/">Hellenic Foundation for Research and Innovation (HFRI)</a>
+        </p>
+        <p style="margin-top: 0.5rem;">
+            <a href="https://athdgc.github.io/">AthDGC Research Network</a> | 
+            <a href="https://en.uoa.gr/">University of Athens</a>
+        </p>
+    </footer>
+</body>
+</html>
